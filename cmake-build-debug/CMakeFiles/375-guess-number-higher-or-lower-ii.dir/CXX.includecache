@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muzhikid/CLionProjects/AlgorithmLeetcode/leetcode/editor/cn/375-guess-number-higher-or-lower-ii.cpp
+iostream
+-
+algorithm
+-
+cmath
+-
+

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/375-guess-number-higher-or-lower-ii.dir/leetcode/editor/cn/375-guess-number-higher-or-lower-ii.cpp.o  -o 375-guess-number-higher-or-lower-ii 

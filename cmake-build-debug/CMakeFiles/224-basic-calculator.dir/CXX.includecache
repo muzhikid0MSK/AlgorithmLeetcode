@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muzhikid/CLionProjects/AlgorithmLeetcode/leetcode/editor/cn/224-basic-calculator.cpp
+iostream
+-
+map
+-
+queue
+-
+vector
+-
+stack
+-
+algorithm
+-
+

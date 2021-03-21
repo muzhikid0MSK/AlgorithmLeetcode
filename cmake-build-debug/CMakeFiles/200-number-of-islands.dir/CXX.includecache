@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muzhikid/CLionProjects/AlgorithmLeetcode/leetcode/editor/cn/200-number-of-islands.cpp
+iostream
+-
+sstream
+-
+string
+-
+fstream
+-
+map
+-
+queue
+-
+unordered_map
+-
+vector
+-
+algorithm
+-
+

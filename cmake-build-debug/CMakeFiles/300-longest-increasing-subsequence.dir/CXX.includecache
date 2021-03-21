@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muzhikid/CLionProjects/AlgorithmLeetcode/leetcode/editor/cn/300-longest-increasing-subsequence.cpp
+iostream
+-
+map
+-
+stack
+-
+queue
+-
+vector
+-
+algorithm
+-
+

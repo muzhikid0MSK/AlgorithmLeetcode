@@ -1,0 +1,39 @@
+class Solution {
+public:
+    vector<vector<int> >ans ;
+    vector<int>candidates_2;
+    int target_2;
+    void generate(vector<int>method,int presentSum){
+        if(presentSum==target_2){
+            ans.push_back(method);
+            return;
+        }
+        else if(presentSum>target_2){
+            return;
+        }
+        for(int i =0;i<candidates_2.size();i++){
+                if(!method.empty() and candidates_2[i]<method.back()){
+                    continue;
+                }
+                method.push_back(candidates_2[i]);
+                presentSum+=candidates_2[i];
+                generate(method,presentSum);
+                method.pop_back();
+                presentSum-=candidates_2[i];
+        }
+
+
+    }
+    vector<vector<int> > combinationSum(vector<int>& candidates, int target) {
+        sort(candidates.begin(),candidates.end());
+        candidates_2 = candidates;
+        target_2 = target;
+        vector<int>empty;
+
+        generate(empty,0);
+        return ans;
+    }
+};
+
+//runtime:84 ms
+//memory:21.8 MB

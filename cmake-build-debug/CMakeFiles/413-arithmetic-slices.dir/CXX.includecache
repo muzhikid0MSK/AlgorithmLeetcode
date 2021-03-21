@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muzhikid/CLionProjects/AlgorithmLeetcode/leetcode/editor/cn/413-arithmetic-slices.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/8-string-to-integer-atoi.dir/leetcode/editor/cn/8-string-to-integer-atoi.cpp.o  -o 8-string-to-integer-atoi 

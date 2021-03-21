@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/299-bulls-and-cows.dir/leetcode/editor/cn/299-bulls-and-cows.cpp.o  -o 299-bulls-and-cows 

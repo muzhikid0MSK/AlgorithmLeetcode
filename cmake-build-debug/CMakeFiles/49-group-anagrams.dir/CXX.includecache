@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muzhikid/CLionProjects/AlgorithmLeetcode/leetcode/editor/cn/49-group-anagrams.cpp
+iostream
+-
+map
+-
+queue
+-
+vector
+-
+algorithm
+-
+stack
+-
+fstream
+-
+string
+-
+
